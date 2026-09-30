@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="weather-app">
+
+        <h1>🌤️ Weather Forecast</h1>
+
+        <input type="text" id="cityInput" placeholder="Enter city name">
+
+        <button id="weatherButton">Get Weather</button>
+
+        <div id="weatherResult">
+            <div id="weatherEmoji">🌍</div>
+            <h2 id="cityName">Search for a city</h2>
+            <p id="temperature">-- °C</p>
+            <p id="condition">Weather condition</p>
+            <p id="humidity">Humidity: --%</p>
+            <p id="wind">Wind Speed: -- km/h</p>
+        </div>
+
+        <p id="error"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
